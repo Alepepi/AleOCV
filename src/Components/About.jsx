@@ -1,6 +1,6 @@
 import React from 'react'
 import { ABOUT_TEXT } from "../constants"
-import aboutImg from "../assets/about.jpg"
+import aboutImg from "../assets/Aboutme.jpg"
 import {motion} from "framer-motion";
 
 const About = () => {

@@ -37,76 +37,76 @@ const Technologies = () => {
         initial= {{opacity: 0, x:-100}}
         transition={{duration: 1.5}}
         className="flex flex-wrap items-center justify-center gap-4">
-            <motion.div 
+            <motion.button 
             variants={iconVariants(2.5)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <RiReactjsLine className=" text-7xl text-cyan-400"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(2.8)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <FaHtml5 className=" text-7xl text-[#c96038]"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(3)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <FaCss3Alt className=" text-7xl text-[#07a1d5]"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(3.2)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <RiJavascriptFill className=" text-7xl text-[#f6dd1e]"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(3.4)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <FaBootstrap className=" text-7xl text-[#5d4284]"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(3.6)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <RiTailwindCssFill className=" text-7xl text-cyan-400"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(3.8)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <RiNotionFill className=" text-7xl text-white"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <FaPython className=" text-7xl text-[#fed748]"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(4.2)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <SiCsharp className=" text-7xl text-[#6b9dd4]"/>
-            </motion.div>
-            <motion.div 
+            </motion.button>
+            <motion.button 
             variants={iconVariants(4.4)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <FiFigma className=" text-7xl"/>
-            </motion.div>
+            </motion.button>
         </motion.div>
     </div>
   )
