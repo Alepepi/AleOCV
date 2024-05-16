@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { FaLinkedin } from 'react-icons/fa'
-import { FaGithub } from 'react-icons/fa'
-import { FaWhatsapp } from 'react-icons/fa'
-import { SiLeetcode } from "react-icons/si";
+import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 import logo from "../assets/Logo-sm-foto.png";
 import { Link } from 'react-scroll';
 
