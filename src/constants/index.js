@@ -22,21 +22,21 @@ export const EXPERIENCES = [
     year: " May 2023 - July 2023",
     role: "Game Developer",
     company: "Hammerbyte Games S.A de C.V.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `At Hammerbyte Games, I participated in multidisciplinary interventions in videogames, focusing on development for UEFN and working with UE5.`,
     technologies: ["Unreal 5", "UEFN", "Verse"],
   },
   {
     year: "December 2022",
     role: "Project Director Facebook Page",
     company: "Kareg Inmobiliaria",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    description: `As the Facebook Project Director at Kareg Inmobiliaria, I managed various aspects of Facebook marketing, including Facebook Ads, Facebook Business, Facebook Page management, and the implementation of a social media post grid strategy.`,
     technologies: ["Facebook Ads", "Canva"],
   },
   {
     year: " July 2022 - December 2022",
     role: "Full Stack Developer",
     company: "T-Systems",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `During my time at T-Systems, I served as a Full Stack Developer, leading the update of web pages. Additionally, I provided consultancy on Figma and Notion and facilitated the implementation of the Design Thinking Methodology as a SCRUM Master.`,
     technologies: ["HTML", "CSS", "Figma", "Notion", "SCRUM"],
   },
 ];
@@ -47,29 +47,33 @@ export const PROJECTS = [
     title: "IOS Game 'Serpientes y Escaleras' ",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "An educational app designed for children, featuring interactive poems and a game based on the classic 'Snakes and Ladders'. Developed during Social Service, this project allowed me to gain proficiency in XCode, Swift, and SpriteKit.",
     technologies: ["IOS", "Swift", "SpriteKit"],
+    link: "https://github.com/Alepepi/Serpientesypoemas"
   },
   {
     title: "Task Management App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "Developed as part of an IoT class project, this app provides comprehensive task management capabilities. It includes both front-end and back-end components, utilizing a tech stack that includes HTML, CSS, Vue.js, MongoDB, Vuetify, NuxtJS, and Chart.js.",
     technologies: ["HTML", "CSS", "Vue.js", "MongoDB", "Veutify", "NuxtJS", "Chart.js"],
+    link: "https://github.com/MegaChestercat/IoT-Project"
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A personal website showcasing my projects and skills in front-end development and design. Built with HTML, CSS, React, and Tailwind CSS, this website serves as a demonstration of my capabilities and projects.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
+    link: "https://github.com/Alepepi/AleOCV"
   },
   {
     title: "Machine Learning F1 Prediction",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A project undertaken in the 'Selected Topics 1: Machine Learning' course, focusing on predicting outcomes in Formula 1 seasons. The project employed technologies such as Jupyter Notebook, Python, Kaggle, CSV, and Google Colab to analyze and predict F1 race results.",
+    technologies: ["Jupyter Notebook", "Python", "Kaggle", "CSV", "Google Colab"],
+    link: "https://github.com/Alepepi/TS1P"
   },
 ];
 
@@ -78,26 +82,30 @@ export const CERTIFICATES = [
   {
     image: Cert1,
     certification: "EF English Certificate",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.`,
+    description: `Proficient in English according to the EF Standard English Test (EFSET)`,
     tag: ["#English", "#EF"],
+    link: "https://cert.efset.org/qK2ici"
   },
   {
     image: Cert2,
     certification: "Google Cloud Computing Foundations",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.`,
+    description: `Successfully completed the Google Cloud Computing Foundations course`,
     tag: ["#Google", "#Cloud", "#CloudComputing"],
+    link: "https://www.linkedin.com/in/alejandroollivierochoa/details/certifications/1711070026870/single-media-viewer/?profileId=ACoAACl83ccBKmhZBDRn3XFUJaeRq5zfIysT4rY"
   },
   {
     image: Cert3,
     certification: "IOS Lab Certificate",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.`,
+    description: `Completed a comprehensive iOS development course at the UDLAP University iOS Lab, certified by Apple`,
     tag: ["#IOS", "#Swift", "#SpriteKit"],
+    link: ""
   },
   {
     image: Cert4,
     certification: "Image Processing",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.`,
+    description: `Completed a course in Image Processing using MATLAB software.`,
     tag: ["#MatLab", "#MachineLearning"],
+    link: "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f9a47def-2e6c-49b9-aec5-a4fd3fcb679f&"
   },
 ];
 //GIT COLLABORATION
