@@ -52,7 +52,7 @@ export const PROJECTS = [
     link: "https://github.com/Alepepi/Serpientesypoemas"
   },
   {
-    title: "Task Management App",
+    title: "NFC Register Device & Platform for UDLAP",
     image: project2,
     description:
       "Developed as part of an IoT class project, this app provides comprehensive task management capabilities. It includes both front-end and back-end components, utilizing a tech stack that includes HTML, CSS, Vue.js, MongoDB, Vuetify, NuxtJS, and Chart.js.",
