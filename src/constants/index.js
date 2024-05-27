@@ -98,7 +98,7 @@ export const CERTIFICATES = [
     certification: "IOS Lab Certificate",
     description: `Completed a comprehensive iOS development course at the UDLAP University iOS Lab, certified by Apple`,
     tag: ["#IOS", "#Swift", "#SpriteKit"],
-    link: ""
+    link: "https://www.linkedin.com/in/alejandroollivierochoa/details/certifications/1716833319826/single-media-viewer/?profileId=ACoAACl83ccBKmhZBDRn3XFUJaeRq5zfIysT4rY"
   },
   {
     image: Cert4,
