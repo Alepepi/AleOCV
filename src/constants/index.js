@@ -2,6 +2,7 @@ import project1 from "../assets/IOSProject.png";
 import project2 from "../assets/IOT_Project.png";
 import project3 from "../assets/PortafolioSite.png";
 import project4 from "../assets/T1Project.png";
+import project5 from "../assets/AIE-Website.png";
 
 import Cert1 from "../assets/EFCert.jpg";
 import Cert2 from "../assets/GCCF.jpg";
@@ -18,6 +19,13 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Web developer with a p
 //SKILLS
 
 export const EXPERIENCES = [
+  {
+    year: " June 2023 - October 2023",
+    role: "Junior Web Developer",
+    company: "AIE Consultoria",
+    description: `As a Junior Web Developer at AIE Consultoria, I was responsible for developing and maintaining the company website. I utilized Next.js and Tailwind CSS to create a responsive and user-friendly interface. Additionally, I integrated Google Tag Manager for enhanced tracking and analytics capabilities.`,
+    technologies: ["Next.js", "Tailwind", "Odoo", "Google Tag Manager"],
+  },
   {
     year: " May 2023 - July 2023",
     role: "Game Developer",
@@ -43,6 +51,14 @@ export const EXPERIENCES = [
 
 //PROJECTS
 export const PROJECTS = [
+  {
+    title: "Pagina Web de AIE Consultoria",
+    image: project5,
+    description:
+      "Custom-built consulting website developed with Next.js, Tailwind CSS, and Google Tag Manager integration. This platform showcases my professional services while demonstrating technical expertise in modern web development. The site features responsive design, optimized performance, and comprehensive analytics tracking to measure client engagement and conversion.",
+    technologies: ["Next.js", "Tailwind CSS", "Google Tag Manager"],
+    link: "https://aieconsulting.mx/"
+  },
   {
     title: "IOS Game 'Serpientes y Escaleras' ",
     image: project1,
