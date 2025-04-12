@@ -28,21 +28,21 @@ export const EXPERIENCES = [
     role: "Junior Web Developer",
     company: "AIE Consultoria",
     description: `As a Junior Web Developer at AIE Consultoria, I was responsible for developing and maintaining the company website. I utilized Next.js and Tailwind CSS to create a responsive and user-friendly interface. Additionally, I integrated Google Tag Manager for enhanced tracking and analytics capabilities.`,
-    technologies: ["Next.js", "Tailwind", "Odoo", "Google Tag Manager", "Builder.io"], //TODO: Add more technologies
+    technologies: ["Next.js", "Tailwind", "Odoo", "Google Tag Manager", "Builder.io"]
   },
   {
     year: " May 2023 - July 2023",
     role: "Game Developer",
     company: "Hammerbyte Games S.A de C.V.",
     description: `At Hammerbyte Games, I participated in multidisciplinary interventions in videogames, focusing on development for UEFN and working with UE5.`,
-    technologies: ["Unreal 5", "UEFN", "Verse"],
+    technologies: ["Unreal 5", "UEFN", "Verse"]
   },
   {
     year: "December 2022",
     role: "Project Director Facebook Page",
     company: "Kareg Inmobiliaria",
     description: `As the Facebook Project Director at Kareg Inmobiliaria, I managed various aspects of Facebook marketing, including Facebook Ads, Facebook Business, Facebook Page management, and the implementation of a social media post grid strategy.`,
-    technologies: ["Facebook Ads", "Canva"],
+    technologies: ["Facebook Ads", "Canva"]
   },
   {
     year: " July 2022 - December 2022",
@@ -143,7 +143,7 @@ export const EDUCATION = [
     year: "August 2019 - Jun 2024",
     title: "Bachelor's Degree in Computer Engineering",
     institution: "UDLAP University",
-    description: `Currently pursuing a Bachelor's degree in Computer Engineering at UDLAP University, with a focus on software development, data analysis, and machine learning.`, // TODO: Add more details
+    description: "Achieved a Bachelor's degree in Computer Engineering at UDLAP University, with a focus on software development, data structures, and algorithms. Engaged in various projects and coursework to enhance programming skills and problem-solving abilities.",
     image: Edu2,
   },
   {
