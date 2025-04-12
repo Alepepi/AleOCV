@@ -20,11 +20,11 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Web developer with a p
 
 export const EXPERIENCES = [
   {
-    year: " June 2023 - October 2023",
+    year: " June 2024 - October 2024",
     role: "Junior Web Developer",
     company: "AIE Consultoria",
     description: `As a Junior Web Developer at AIE Consultoria, I was responsible for developing and maintaining the company website. I utilized Next.js and Tailwind CSS to create a responsive and user-friendly interface. Additionally, I integrated Google Tag Manager for enhanced tracking and analytics capabilities.`,
-    technologies: ["Next.js", "Tailwind", "Odoo", "Google Tag Manager"],
+    technologies: ["Next.js", "Tailwind", "Odoo", "Google Tag Manager", "Builder.io"], //TODO: Add more technologies
   },
   {
     year: " May 2023 - July 2023",
