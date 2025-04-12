@@ -9,6 +9,10 @@ import Cert2 from "../assets/GCCF.jpg";
 import Cert3 from "../assets/iOSLabCert.jpg";
 import Cert4 from "../assets/ImagePorcCertMT.jpg";
 
+import Edu1 from "../assets/prepatec-logo.png";
+import Edu2 from "../assets/udlap-logo.png";
+import Edu3 from "../assets/unita-logo.png";
+
 export const HERO_CONTENT = `I am a passionate Web developer with a dream of becoming an excellent developer with a focus in UX. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Tailwind, as well as some design technologies like Figma. My goal is to give great solutions for the clients in Front-end development asi well as making an excellent experience for the users, and finally keep my growth in the development industry.`;
 
 //ABOUT ME
@@ -125,6 +129,31 @@ export const CERTIFICATES = [
   },
 ];
 //GIT COLLABORATION
+
+//EDUCATION
+export const EDUCATION = [
+  {
+    year: "Oct 2024 - Currently",
+    title: "Apple Developer Academy",
+    institution: "Università degli Studi di Napoli Federico II",
+    description: `Completed a comprehensive iOS development course at the Apple Developer Academy, focusing on Swift programming, app design, and user experience. Gained hands-on experience in building iOS applications and collaborating in a team environment.`,
+    image: Edu3,
+  },
+  {
+    year: "August 2019 - Jun 2024",
+    title: "Bachelor's Degree in Computer Engineering",
+    institution: "UDLAP University",
+    description: `Currently pursuing a Bachelor's degree in Computer Engineering at UDLAP University, with a focus on software development, data analysis, and machine learning.`, // TODO: Add more details
+    image: Edu2,
+  },
+  {
+    year: "August 2016 - May 2019",
+    title: "High School Diploma",
+    institution: "Tecnológico de Monterrey",
+    description: `Completed high school education at Tecnológico de Monterrey, with a focus on science and technology.`,
+    image: Edu1,
+  },
+];
 
 //CONTACT
 export const CONTACT = {
