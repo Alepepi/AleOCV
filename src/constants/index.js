@@ -2,11 +2,16 @@ import project1 from "../assets/IOSProject.png";
 import project2 from "../assets/IOT_Project.png";
 import project3 from "../assets/PortafolioSite.png";
 import project4 from "../assets/T1Project.png";
+import project5 from "../assets/AIE-Website.png";
 
 import Cert1 from "../assets/EFCert.jpg";
 import Cert2 from "../assets/GCCF.jpg";
 import Cert3 from "../assets/iOSLabCert.jpg";
 import Cert4 from "../assets/ImagePorcCertMT.jpg";
+
+import Edu1 from "../assets/prepatec-logo.png";
+import Edu2 from "../assets/udlap-logo.png";
+import Edu3 from "../assets/unita-logo.png";
 
 export const HERO_CONTENT = `I am a passionate Web developer with a dream of becoming an excellent developer with a focus in UX. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Tailwind, as well as some design technologies like Figma. My goal is to give great solutions for the clients in Front-end development asi well as making an excellent experience for the users, and finally keep my growth in the development industry.`;
 
@@ -19,18 +24,25 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Web developer with a p
 
 export const EXPERIENCES = [
   {
+    year: " June 2024 - October 2024",
+    role: "Junior Web Developer",
+    company: "AIE Consultoria",
+    description: `As a Junior Web Developer at AIE Consultoria, I was responsible for developing and maintaining the company website. I utilized Next.js and Tailwind CSS to create a responsive and user-friendly interface. Additionally, I integrated Google Tag Manager for enhanced tracking and analytics capabilities.`,
+    technologies: ["Next.js", "Tailwind", "Odoo", "Google Tag Manager", "Builder.io"]
+  },
+  {
     year: " May 2023 - July 2023",
     role: "Game Developer",
     company: "Hammerbyte Games S.A de C.V.",
     description: `At Hammerbyte Games, I participated in multidisciplinary interventions in videogames, focusing on development for UEFN and working with UE5.`,
-    technologies: ["Unreal 5", "UEFN", "Verse"],
+    technologies: ["Unreal 5", "UEFN", "Verse"]
   },
   {
     year: "December 2022",
     role: "Project Director Facebook Page",
     company: "Kareg Inmobiliaria",
     description: `As the Facebook Project Director at Kareg Inmobiliaria, I managed various aspects of Facebook marketing, including Facebook Ads, Facebook Business, Facebook Page management, and the implementation of a social media post grid strategy.`,
-    technologies: ["Facebook Ads", "Canva"],
+    technologies: ["Facebook Ads", "Canva"]
   },
   {
     year: " July 2022 - December 2022",
@@ -43,6 +55,14 @@ export const EXPERIENCES = [
 
 //PROJECTS
 export const PROJECTS = [
+  {
+    title: "Pagina Web de AIE Consultoria",
+    image: project5,
+    description:
+      "Custom-built consulting website developed with Next.js, Tailwind CSS, and Google Tag Manager integration. This platform showcases my professional services while demonstrating technical expertise in modern web development. The site features responsive design, optimized performance, and comprehensive analytics tracking to measure client engagement and conversion.",
+    technologies: ["Next.js", "Tailwind CSS", "Google Tag Manager"],
+    link: "https://aieconsulting.mx/"
+  },
   {
     title: "IOS Game 'Serpientes y Escaleras' ",
     image: project1,
@@ -109,6 +129,31 @@ export const CERTIFICATES = [
   },
 ];
 //GIT COLLABORATION
+
+//EDUCATION
+export const EDUCATION = [
+  {
+    year: "Oct 2024 - Currently",
+    title: "Apple Developer Academy",
+    institution: "Università degli Studi di Napoli Federico II",
+    description: `Completed a comprehensive iOS development course at the Apple Developer Academy, focusing on Swift programming, app design, and user experience. Gained hands-on experience in building iOS applications and collaborating in a team environment.`,
+    image: Edu3,
+  },
+  {
+    year: "August 2019 - Jun 2024",
+    title: "Bachelor's Degree in Computer Engineering",
+    institution: "UDLAP University",
+    description: "Achieved a Bachelor's degree in Computer Engineering at UDLAP University, with a focus on software development, data structures, and algorithms. Engaged in various projects and coursework to enhance programming skills and problem-solving abilities.",
+    image: Edu2,
+  },
+  {
+    year: "August 2016 - May 2019",
+    title: "High School Diploma",
+    institution: "Tecnológico de Monterrey",
+    description: `Completed high school education at Tecnológico de Monterrey, with a focus on science and technology.`,
+    image: Edu1,
+  },
+];
 
 //CONTACT
 export const CONTACT = {

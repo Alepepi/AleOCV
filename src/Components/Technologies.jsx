@@ -9,6 +9,13 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa6";
 import { SiCsharp } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
+import { SiNextdotjs } from "react-icons/si";
+import { SiOdoo } from "react-icons/si";
+import { SiGoogletagmanager } from "react-icons/si";
+import { GrSwift } from "react-icons/gr";
+import { SiUnrealengine } from "react-icons/si";
+import { FaNpm } from "react-icons/fa";
+import { SiGooglecloud } from "react-icons/si";
 import {motion} from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -106,6 +113,55 @@ const Technologies = () => {
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <FiFigma className=" text-7xl"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(4.6)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiNextdotjs className=" text-7xl text-white"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(4.8)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiOdoo className=" text-7xl text-[#623a57]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(5)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiGoogletagmanager className=" text-7xl text-[#4789F5]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(5.2)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <GrSwift className=" text-7xl text-[#FF5C2A]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(5.4)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiUnrealengine className=" text-7xl text-white"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(5.6)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <FaNpm className=" text-7xl text-[#CC3F3E]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(5.8)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiGooglecloud className=" text-7xl text-[#49AA4D]"/>
             </motion.button>
         </motion.div>
     </div>

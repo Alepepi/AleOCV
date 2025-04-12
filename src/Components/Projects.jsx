@@ -25,11 +25,17 @@ const Projects = () => {
               <a href={project.link}>
                 <img
                   src={project.image}
-                  width={150}
-                  height={150}
+                  width={350}
+                  height={200}
                   alt={project.title}
-                  className="mb-6 rounded"
-                  style={{ width: '150px', height: '150px', objectFit: 'cover', objectPosition: '50% 25%' }}
+                  className="mb-6 mr-6 rounded"
+                  style={{
+                    width: '350px',
+                    height: '200px',
+                    objectFit: 'cover',
+                    objectPosition: '50% 25%',
+                    marginBottom: '20px',
+                  }}
                 />
               </a>
             </motion.div>
@@ -37,7 +43,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1.5 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className="w-full max-w-xl lg:w-3/4 lg:ml-6"
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
