@@ -27,6 +27,7 @@ const App = () => {
         <meta name="twitter:title" content="Alejandro Ollivier Ochoa | Portfolio" />
         <meta name="twitter:description" content="Portfolio of Alejandro Ollivier Ochoa, Full Stack Developer." />
         <meta name="twitter:image" content="https://yourdomain.com/og-image.jpg" />
+        <meta name="google-site-verification" content="google0fed1cd2c3a33b28" />
         <html lang="en" />
       </Helmet>
       <div className="fixed top-0 -z-10 h-full w-full">
