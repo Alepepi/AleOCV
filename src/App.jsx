@@ -14,6 +14,7 @@ const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <Helmet>
+        <meta name="google-site-verification" content="google0fed1cd2c3a33b28" />
         <title>Alejandro Ollivier Ochoa | Portfolio</title>
         <meta name="description" content="Portfolio of Alejandro Ollivier Ochoa. Full Stack Developer, showcasing skills, projects, experience, and contact information." />
         <meta name="keywords" content="Alejandro Ollivier Ochoa, Portfolio, Developer, Full Stack, React, JavaScript, Projects, Experience" />
@@ -27,7 +28,6 @@ const App = () => {
         <meta name="twitter:title" content="Alejandro Ollivier Ochoa | Portfolio" />
         <meta name="twitter:description" content="Portfolio of Alejandro Ollivier Ochoa, Full Stack Developer." />
         <meta name="twitter:image" content="https://yourdomain.com/og-image.jpg" />
-        <meta name="google-site-verification" content="google0fed1cd2c3a33b28" />
         <html lang="en" />
       </Helmet>
       <div className="fixed top-0 -z-10 h-full w-full">
