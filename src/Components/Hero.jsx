@@ -1,7 +1,7 @@
 import React from 'react' //rafce "to import the template and begin"
 import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/AlexOProfile1.jpg"
-import Resume from "../assets/Resume_AOO_V1.4.pdf"
+import Resume from "../assets/SWE_Resume_Template_AOO V2.3.pdf"
 import {delay, motion} from "framer-motion";
 
 const container = (delay) => ({

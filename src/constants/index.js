@@ -56,7 +56,7 @@ export const EXPERIENCES = [
 //PROJECTS
 export const PROJECTS = [
   {
-    title: "Pagina Web de AIE Consultoria",
+    title: "AIE Consultoria Website",
     image: project5,
     description:
       "Custom-built consulting website developed with Next.js, Tailwind CSS, and Google Tag Manager integration. This platform showcases my professional services while demonstrating technical expertise in modern web development. The site features responsive design, optimized performance, and comprehensive analytics tracking to measure client engagement and conversion.",
@@ -133,7 +133,7 @@ export const CERTIFICATES = [
 //EDUCATION
 export const EDUCATION = [
   {
-    year: "Oct 2024 - Currently",
+    year: "Oct 2024 - Jul 2025",
     title: "Apple Developer Academy",
     institution: "Università degli Studi di Napoli Federico II",
     description: `Completed a comprehensive iOS development course at the Apple Developer Academy, focusing on Swift programming, app design, and user experience. Gained hands-on experience in building iOS applications and collaborating in a team environment.`,
@@ -157,6 +157,6 @@ export const EDUCATION = [
 
 //CONTACT
 export const CONTACT = {
-  phoneNo: "+52 871 331 4759 ",
+  phoneNo: "+52 871 331 4759",
   email: "aleollivierochoa@gmail.com",
 };
