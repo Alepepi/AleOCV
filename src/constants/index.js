@@ -63,7 +63,7 @@ export const PROJECTS = [
     description:
       "A multilingual health support app designed to guide patients and caregivers through proper stoma care using intuitive 3D tutorials and interactive instructions. Stomadida empowers users who are new to living with a stoma bag by offering step-by-step visual guidance, real patient stories, and self-check tools—all accessible fully offline. Developed with a user-first approach, this app demonstrates my ability to build accessible, health-oriented mobile experiences. It includes geolocation-based language support (English, Spanish, Italian), interactive content, and detailed material breakdowns. The app was designed for clarity, empathy, and technical reliability to support users in vulnerable medical situations.",
     technologies: ["Visual Composer Pro", "SwiftUI", "VisionKit", "Vision Pro"],
-    link: "https://aieconsulting.mx/"
+    link: "https://apps.apple.com/us/app/stomadida-stoma-care-guide/id6746772397"
   },
   {
     title: "Julius' Damnation",
@@ -71,7 +71,7 @@ export const PROJECTS = [
     description:
       "An infinite runner game set in a mythological underworld, where players control Julius Caesar in his fight to defend the souls of his fallen legion against demonic forces unleashed from Hell. Developed as a solo project, this app demonstrates my ability to combine engaging gameplay mechanics with narrative world-building. Built using Swift and SpriteKit, Julius’ Damnation features responsive touch controls, animated characters, and a dark, immersive visual style. The game also integrates performance optimization techniques and analytics tracking to monitor user engagement and retention.",
     technologies: ["Unity", "SwiftUI", "C#"],
-    link: "https://aieconsulting.mx/"
+    link: "https://apps.apple.com/us/app/julius-damnation/id6742834396"
   },
   {
     title: "AIE Consultoria Website",
