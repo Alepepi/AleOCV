@@ -3,6 +3,8 @@ import project2 from "../assets/IOT_Project.png";
 import project3 from "../assets/PortafolioSite.png";
 import project4 from "../assets/T1Project.png";
 import project5 from "../assets/AIE-Website.png";
+import project6 from "../assets/Julius' Damnation.jpeg";
+import project7 from "../assets/Stomadida.jpeg";
 
 import Cert1 from "../assets/EFCert.jpg";
 import Cert2 from "../assets/GCCF.jpg";
@@ -55,6 +57,22 @@ export const EXPERIENCES = [
 
 //PROJECTS
 export const PROJECTS = [
+  {
+    title: "MyStomadida",
+    image: project7,
+    description:
+      "A multilingual health support app designed to guide patients and caregivers through proper stoma care using intuitive 3D tutorials and interactive instructions. Stomadida empowers users who are new to living with a stoma bag by offering step-by-step visual guidance, real patient stories, and self-check tools—all accessible fully offline. Developed with a user-first approach, this app demonstrates my ability to build accessible, health-oriented mobile experiences. It includes geolocation-based language support (English, Spanish, Italian), interactive content, and detailed material breakdowns. The app was designed for clarity, empathy, and technical reliability to support users in vulnerable medical situations.",
+    technologies: ["Visual Composer Pro", "SwiftUI", "VisionKit", "Vision Pro"],
+    link: "https://aieconsulting.mx/"
+  },
+  {
+    title: "Julius' Damnation",
+    image: project6,
+    description:
+      "An infinite runner game set in a mythological underworld, where players control Julius Caesar in his fight to defend the souls of his fallen legion against demonic forces unleashed from Hell. Developed as a solo project, this app demonstrates my ability to combine engaging gameplay mechanics with narrative world-building. Built using Swift and SpriteKit, Julius’ Damnation features responsive touch controls, animated characters, and a dark, immersive visual style. The game also integrates performance optimization techniques and analytics tracking to monitor user engagement and retention.",
+    technologies: ["Unity", "SwiftUI", "C#"],
+    link: "https://aieconsulting.mx/"
+  },
   {
     title: "AIE Consultoria Website",
     image: project5,
