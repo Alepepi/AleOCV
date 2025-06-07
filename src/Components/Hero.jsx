@@ -26,13 +26,20 @@ const Hero = () => {
                     className="pb-16 text-6xl font-extralight tracking-tight lg:mt-16 lg:text-8xl">
                         Alejandro Ollivier
                     </motion.h1>
-                    <motion.span
+                    <motion.div
                     variants={container(0.5)}
                     initial="hidden"
-                    animate="visible" 
-                    className="bg-gradient-to-r from-blue-300 via-slate-500 to-red-500 bg-clip-text text-4xl tracking-tight text-transparent">
+                    animate="visible"
+                    className="flex items-center gap-2 my-2"
+                    >
+                    <span className="bg-gradient-to-r from-blue-300 via-slate-500 to-red-500 bg-clip-text text-4xl tracking-tight text-transparent">
                         Web Developer
-                    </motion.span>
+                    </span>
+                    <span className="text-4xl text-white font-light select-none">/</span>
+                    <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-4xl tracking-tight text-transparent font-light ml-1">
+                        IOS Developer
+                    </span>
+                    </motion.div>
                     <motion.p variants={container(1)}
                     initial="hidden"
                     animate="visible"
