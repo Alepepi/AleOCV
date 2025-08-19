@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/AlexOProfile1.jpg"
-import Resume from "../assets/SWE_Resume_Template_AOO V2.3.pdf"
+import Resume from "../assets/SWE_Resume_Template_AOO_US V1.2.pdf"
+import Resume2 from "../assets/SWE_Platilla_CV_AOO_MX V1.1.pdf"
 import { delay, motion, AnimatePresence } from "framer-motion";
 import { IoReturnDownBack } from "react-icons/io5";
 
@@ -106,7 +107,7 @@ const Hero = () => {
                                     exit="exit"
                                     whileHover={{ scale: 1.08 }}
                                     whileTap={{ scale: 0.95 }}
-                                    href={Resume}
+                                    href={Resume2}
                                     download
                                     onClick={handleOptionClick}
                                     className="bg-gray-400 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-full flex items-center transition-all duration-200"
