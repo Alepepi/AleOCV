@@ -10,6 +10,7 @@ import Cert1 from "../assets/EFCert.jpg";
 import Cert2 from "../assets/GCCF.jpg";
 import Cert3 from "../assets/iOSLabCert.jpg";
 import Cert4 from "../assets/ImagePorcCertMT.jpg";
+import Cert5 from "../assets/iOSADACert.jpg";
 
 import Edu1 from "../assets/prepatec-logo.png";
 import Edu2 from "../assets/udlap-logo.png";
@@ -144,6 +145,13 @@ export const CERTIFICATES = [
     description: `Completed a course in Image Processing using MATLAB software.`,
     tag: ["#MatLab", "#MachineLearning"],
     link: "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f9a47def-2e6c-49b9-aec5-a4fd3fcb679f&"
+  },
+  {
+    image: Cert5,
+    certification: "Apple Developer Academy Certificate",
+    description: `Successfully completed the Apple Developer Academy program, focusing on iOS development and Swift programming.`,
+    tag: ["#Apple", "#IOS", "#Swift"],
+    link: "https://www.linkedin.com/in/alejandroollivierochoa/details/certifications/1755629192828/single-media-viewer/?profileId=ACoAACl83ccBKmhZBDRn3XFUJaeRq5zfIysT4rY"
   },
 ];
 //GIT COLLABORATION
