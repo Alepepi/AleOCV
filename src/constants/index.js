@@ -10,22 +10,36 @@ import Cert1 from "../assets/EFCert.jpg";
 import Cert2 from "../assets/GCCF.jpg";
 import Cert3 from "../assets/iOSLabCert.jpg";
 import Cert4 from "../assets/ImagePorcCertMT.jpg";
-import Cert5 from "../assets/iOSADACert.jpg";
+import Cert5 from "../assets/certificate_ios.jpg";
 
 import Edu1 from "../assets/prepatec-logo.png";
 import Edu2 from "../assets/udlap-logo.png";
 import Edu3 from "../assets/unita-logo.png";
 
-export const HERO_CONTENT = `I am a passionate Web developer with a dream of becoming an excellent developer with a focus in UX. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Tailwind, as well as some design technologies like Figma. My goal is to give great solutions for the clients in Front-end development asi well as making an excellent experience for the users, and finally keep my growth in the development industry.`;
+export const HERO_CONTENT = `I am a passionate Full Stack and iOS developer focused on creating excellent user experiences. With 2+ years of hands-on experience, I have worked with technologies such as React, Next.js, PHP, Laravel, Swift, and Tailwind CSS. I am currently Co-Founder at Ollidevs, where I lead projects and coordinate teams to deliver high-quality software solutions. I recently completed the Apple Developer Academy at Universita degli Studi di Napoli Federico II, strengthening my skills in iOS development, app design, and UX. My goal is to keep growing in the tech industry while building impactful digital products for clients and users.`;
 
 //ABOUT ME
-export const ABOUT_TEXT = `I am a dedicated and versatile Web developer with a passion for creating efficient and user-friendly web applications. With 1 year of professional experience, I have worked with a variety of technologies, including React, Next.js, Figma, Python, C#, and more. My journey in web development began with a deep curiosity for how these pages come to live, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated Full Stack and iOS developer with a passion for creating efficient, user-friendly applications and scalable solutions. With 2+ years of professional experience, I have worked with a variety of technologies including React, Next.js, PHP, Laravel, Swift, and more. Currently, I am a Co-Founder at Ollidevs, where I manage projects and oversee team coordination while developing innovative software solutions. My journey in development began with curiosity about how technology transforms ideas into reality, and it has evolved into a career where I continuously strive to learn and innovate. Recently completed the Apple Developer Academy, focusing on iOS development and user experience. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 //HOBBIES
 
 //SKILLS
 
 export const EXPERIENCES = [
+  {
+    year: "November 2025 - Present",
+    role: "Co-Founder",
+    company: "Ollidevs",
+    description: `Managed projects as lead Project Manager, overseeing planning, timelines, and team coordination. Onboarded and trained clients on delivered software solutions, ensuring successful adoption.`,
+    technologies: ["PHP", "MySQL", "JavaScript", "Project Management"]
+  },
+  {
+    year: "September 2025 - December 2025",
+    role: "Front-End Developer",
+    company: "AWSoftware",
+    description: `Developed and maintained corporate websites using PHP, Laravel, and JavaScript, improving scalability and stability. Enhanced metadata, SEO, and content structure, boosting organic visibility by 25%. Optimized responsive layouts and reusable components, increasing mobile usability and accessibility.`,
+    technologies: ["PHP", "Laravel", "JavaScript", "SEO"]
+  },
   {
     year: " June 2024 - October 2024",
     role: "Junior Web Developer",
@@ -59,6 +73,14 @@ export const EXPERIENCES = [
 //PROJECTS
 export const PROJECTS = [
   {
+    title: "AIE Consultoria Website",
+    image: project5,
+    description:
+      "Custom-built consulting website developed with Next.js, Tailwind CSS, and Google Tag Manager integration. This platform showcases my professional services while demonstrating technical expertise in modern web development. The site features responsive design, optimized performance, and comprehensive analytics tracking to measure client engagement and conversion.",
+    technologies: ["Next.js", "Tailwind CSS", "Google Tag Manager"],
+    link: "https://aie-official-website-portafolio.vercel.app/"
+  },
+  {
     title: "MyStomadida",
     image: project7,
     description:
@@ -75,12 +97,12 @@ export const PROJECTS = [
     link: "https://apps.apple.com/us/app/julius-damnation/id6742834396"
   },
   {
-    title: "AIE Consultoria Website",
-    image: project5,
+    title: "NFC Register Device & Platform for UDLAP",
+    image: project2,
     description:
-      "Custom-built consulting website developed with Next.js, Tailwind CSS, and Google Tag Manager integration. This platform showcases my professional services while demonstrating technical expertise in modern web development. The site features responsive design, optimized performance, and comprehensive analytics tracking to measure client engagement and conversion.",
-    technologies: ["Next.js", "Tailwind CSS", "Google Tag Manager"],
-    link: "https://aieconsulting.mx/"
+      "Developed as part of an IoT class project, this app provides comprehensive task management capabilities. It includes both front-end and back-end components, utilizing a tech stack that includes HTML, CSS, Vue.js, MongoDB, Vuetify, NuxtJS, and Chart.js.",
+    technologies: ["HTML", "CSS", "Vue.js", "MongoDB", "Veutify", "NuxtJS", "Chart.js"],
+    link: "https://github.com/MegaChestercat/IoT-Project"
   },
   {
     title: "IOS Game 'Serpientes y Escaleras' ",
@@ -89,14 +111,6 @@ export const PROJECTS = [
       "An educational app designed for children, featuring interactive poems and a game based on the classic 'Snakes and Ladders'. Developed during Social Service, this project allowed me to gain proficiency in XCode, Swift, and SpriteKit.",
     technologies: ["IOS", "Swift", "SpriteKit"],
     link: "https://github.com/Alepepi/Serpientesypoemas"
-  },
-  {
-    title: "NFC Register Device & Platform for UDLAP",
-    image: project2,
-    description:
-      "Developed as part of an IoT class project, this app provides comprehensive task management capabilities. It includes both front-end and back-end components, utilizing a tech stack that includes HTML, CSS, Vue.js, MongoDB, Vuetify, NuxtJS, and Chart.js.",
-    technologies: ["HTML", "CSS", "Vue.js", "MongoDB", "Veutify", "NuxtJS", "Chart.js"],
-    link: "https://github.com/MegaChestercat/IoT-Project"
   },
   {
     title: "Portfolio Website",
@@ -145,13 +159,6 @@ export const CERTIFICATES = [
     description: `Completed a course in Image Processing using MATLAB software.`,
     tag: ["#MatLab", "#MachineLearning"],
     link: "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f9a47def-2e6c-49b9-aec5-a4fd3fcb679f&"
-  },
-  {
-    image: Cert5,
-    certification: "Apple Developer Academy Certificate",
-    description: `Successfully completed the Apple Developer Academy program, focusing on iOS development and Swift programming.`,
-    tag: ["#Apple", "#IOS", "#Swift"],
-    link: "https://www.linkedin.com/in/alejandroollivierochoa/details/certifications/1755629192828/single-media-viewer/?profileId=ACoAACl83ccBKmhZBDRn3XFUJaeRq5zfIysT4rY"
   },
 ];
 //GIT COLLABORATION
