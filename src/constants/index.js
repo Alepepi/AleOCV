@@ -160,6 +160,13 @@ export const CERTIFICATES = [
     tag: ["#MatLab", "#MachineLearning"],
     link: "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f9a47def-2e6c-49b9-aec5-a4fd3fcb679f&"
   },
+  {
+    image: Cert5,
+    certification: "iOS Development Certificate",
+    description: `Official certificate for iOS development training and app development skills.`,
+    tag: ["#iOS", "#Swift", "#Apple"],
+    link: "https://www.linkedin.com/in/alejandroollivierochoa/overlay/Certifications/1135052147/treasury/?profileId=ACoAACl83ccBKmhZBDRn3XFUJaeRq5zfIysT4rY"
+  },
 ];
 //GIT COLLABORATION
 
