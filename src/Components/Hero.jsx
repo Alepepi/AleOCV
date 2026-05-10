@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/AlexOProfile1.jpg"
-import Resume from "../assets/SWE_Resume_Template_AOO_US V1.2.pdf"
-import Resume2 from "../assets/SWE_Platilla_CV_AOO_MX V1.1.pdf"
+import Resume from "../assets/CV_AOO_V2.pdf"
+import Resume2 from "../assets/CV_AOO_V2_US.pdf"
 import { delay, motion, AnimatePresence } from "framer-motion";
 import { IoReturnDownBack } from "react-icons/io5";
 

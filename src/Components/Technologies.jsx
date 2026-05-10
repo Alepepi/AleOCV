@@ -16,6 +16,8 @@ import { GrSwift } from "react-icons/gr";
 import { SiUnrealengine } from "react-icons/si";
 import { FaNpm } from "react-icons/fa";
 import { SiGooglecloud } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
 import {motion} from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -93,12 +95,26 @@ const Technologies = () => {
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <RiNotionFill className=" text-7xl text-white"/>
             </motion.button>
+            <motion.button
+            variants={iconVariants(3.9)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiMysql className=" text-7xl text-[#4479A1]"/>
+            </motion.button>
             <motion.button 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <FaPython className=" text-7xl text-[#fed748]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(4.1)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <FaPhp className=" text-7xl text-[#777BB3]"/>
             </motion.button>
             <motion.button 
             variants={iconVariants(4.2)}
