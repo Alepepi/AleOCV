@@ -18,6 +18,10 @@ import { FaNpm } from "react-icons/fa";
 import { SiGooglecloud } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
+import { SiDocker } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { SiPostgresql } from "react-icons/si";
+import { SiGithubactions } from "react-icons/si";
 import {motion} from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -178,6 +182,34 @@ const Technologies = () => {
             animate="animate"
             className=" rounded-2xl border-4 border-neutral-800 p-4">
                 <SiGooglecloud className=" text-7xl text-[#49AA4D]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiDocker className=" text-7xl text-[#2496ED]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(6.2)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <FaAws className=" text-7xl text-[#FF9900]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(6.4)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiPostgresql className=" text-7xl text-[#4169E1]"/>
+            </motion.button>
+            <motion.button
+            variants={iconVariants(6.6)}
+            initial="initial"
+            animate="animate"
+            className=" rounded-2xl border-4 border-neutral-800 p-4">
+                <SiGithubactions className=" text-7xl text-white"/>
             </motion.button>
         </motion.div>
     </div>

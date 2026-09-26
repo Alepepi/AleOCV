@@ -35,7 +35,24 @@ const Projects = () => {
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/4"
               >
-                <a href={project.link}>
+                {project.link ? (
+                  <a href={project.link}>
+                    <img
+                      src={project.image}
+                      width={350}
+                      height={200}
+                      alt={project.title}
+                      className="mb-6 mr-6 rounded"
+                      style={{
+                        width: '350px',
+                        height: '200px',
+                        objectFit: 'cover',
+                        objectPosition: '50% 25%',
+                        marginBottom: '20px',
+                      }}
+                    />
+                  </a>
+                ) : (
                   <img
                     src={project.image}
                     width={350}
@@ -50,7 +67,7 @@ const Projects = () => {
                       marginBottom: '20px',
                     }}
                   />
-                </a>
+                )}
               </motion.div>
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
