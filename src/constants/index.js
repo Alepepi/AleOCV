@@ -5,27 +5,37 @@ import project4 from "../assets/T1Project.png";
 import project5 from "../assets/AIE-Website.png";
 import project6 from "../assets/Julius' Damnation.jpeg";
 import project7 from "../assets/Stomadida.jpeg";
+import project8 from "../assets/PremezcladosNazas.png";
+import project9 from "../assets/Recibelo.png";
 
 import Cert1 from "../assets/EFCert.jpg";
 import Cert2 from "../assets/GCCF.jpg";
 import Cert3 from "../assets/iOSLabCert.jpg";
 import Cert4 from "../assets/ImagePorcCertMT.jpg";
 import Cert5 from "../assets/certificate_ios.jpg";
+import Cert6 from "../assets/SQLBasicCert.png";
 
 import Edu1 from "../assets/prepatec-logo.png";
 import Edu2 from "../assets/udlap-logo.png";
 import Edu3 from "../assets/unita-logo.png";
 
-export const HERO_CONTENT = `I am a passionate Full Stack and iOS developer focused on creating excellent user experiences. With 2+ years of hands-on experience, I have worked with technologies such as React, Next.js, PHP, Laravel, Swift, and Tailwind CSS. I am currently Co-Founder at Ollidevs, where I lead projects and coordinate teams to deliver high-quality software solutions. I recently completed the Apple Developer Academy at Universita degli Studi di Napoli Federico II, strengthening my skills in iOS development, app design, and UX. My goal is to keep growing in the tech industry while building impactful digital products for clients and users.`;
+export const HERO_CONTENT = `Full Stack and iOS developer with hands-on production experience across React, Next.js, PHP, Laravel, Swift, and Tailwind CSS. Co-Founder at Ollidevs, where I lead project delivery and coordinate a small team building software for clients like Recibelo and Premezclados Nazas. Apple Developer Academy graduate (Università degli Studi di Napoli Federico II), focused on iOS development, app design, and UX. Open to freelance projects, contract work, and full-time roles.`;
 
 //ABOUT ME
-export const ABOUT_TEXT = `I am a dedicated Full Stack and iOS developer with a passion for creating efficient, user-friendly applications and scalable solutions. With 2+ years of professional experience, I have worked with a variety of technologies including React, Next.js, PHP, Laravel, Swift, and more. Currently, I am a Co-Founder at Ollidevs, where I manage projects and oversee team coordination while developing innovative software solutions. My journey in development began with curiosity about how technology transforms ideas into reality, and it has evolved into a career where I continuously strive to learn and innovate. Recently completed the Apple Developer Academy, focusing on iOS development and user experience. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a Full Stack and iOS developer who likes taking a product from a rough idea to something people actually use — architecting the backend, building the UI, and getting it shipped. My day-to-day mixes React, Next.js, PHP, Laravel, and Swift, and lately Angular, PostgreSQL, and AWS through client work. As Co-Founder at Ollidevs, I run project delivery for clients like Recibelo, a commission-free delivery platform, and Premezclados Nazas, a custom order-management system for a concrete company, handling timelines, team coordination, and client onboarding. I completed the Apple Developer Academy in Naples, Italy, deepening my iOS development and UX skills through a year of intensive, project-based training. Outside of client work, I stay active, explore new tools and frameworks, and occasionally contribute to open-source projects.`;
 
 //HOBBIES
 
 //SKILLS
 
 export const EXPERIENCES = [
+  {
+    year: "August 2026 - Present",
+    role: "Developer",
+    company: "Crece con Vales",
+    description: `Developing internal web applications for the company, including reporting modules and SQL-based data queries, along with AI-powered chatbots to automate internal processes.`,
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Docker"]
+  },
   {
     year: "November 2025 - Present",
     role: "Co-Founder",
@@ -72,6 +82,22 @@ export const EXPERIENCES = [
 
 //PROJECTS
 export const PROJECTS = [
+  {
+    title: "Recibelo",
+    image: project9,
+    description:
+      "Ongoing work with Recibelo, a delivery platform that lets restaurants sell through their own channel without paying commissions, as part of OlliDevs. Contributed visual/UX refinements to take the product from MVP to a more polished version, plus ongoing integrations for new business clients onboarding onto the platform.",
+    technologies: ["Angular", "Tailwind CSS", "PostgreSQL", "AWS", "GitHub Actions"],
+    link: ""
+  },
+  {
+    title: "Premezclados Nazas",
+    image: project8,
+    description:
+      "Custom administrative platform built for Premezclados Nazas as part of OlliDevs, tailored to the client's concrete order workflow. Covers the full order lifecycle: order intake, ingredient and raw material data management, order processing and tracking, printable delivery receipts (remisiones), internal confirmation of completed delivery trips, and data export for invoicing.",
+    technologies: ["PHP", "Tailwind CSS"],
+    link: ""
+  },
   {
     title: "AIE Consultoria Website",
     image: project5,
@@ -166,6 +192,13 @@ export const CERTIFICATES = [
     description: `Official certificate for iOS development training and app development skills.`,
     tag: ["#iOS", "#Swift", "#Apple"],
     link: "https://www.linkedin.com/in/alejandroollivierochoa/overlay/Certifications/1135052147/treasury/?profileId=ACoAACl83ccBKmhZBDRn3XFUJaeRq5zfIysT4rY"
+  },
+  {
+    image: Cert6,
+    certification: "SQL (Basic) Certificate",
+    description: `Passed the HackerRank SQL (Basic) skill certification test.`,
+    tag: ["#SQL", "#HackerRank", "#Database"],
+    link: "https://www.hackerrank.com/certificates/iframe/75051c0adfcc"
   },
 ];
 //GIT COLLABORATION
